@@ -5,6 +5,76 @@
 body{
 	background-color: #111;
 }
+/*Mobile*/
+#btn-navegar{
+	display: none;
+}
+.mob-hr{
+	display:none;
+}
+@media screen and (max-width:950px){
+	.grid li{
+		width:30%!important;
+	}
+}
+@media screen and (max-width:598px){
+	#btn-navegar{
+		font-size:2em;
+		padding: 10px;
+		float: right;
+		display: inherit;
+	}
+	#btn-navegar:hover{
+		color: #eee;
+		transition: 0.5s;
+	}
+	.mob-hr{
+		display: inherit!important;
+		float: left;
+		width: 100%;
+		border-color: #333;
+		margin-top: 0px;
+		margin-bottom: 5px;
+	}
+	.navbar-kubo ul{
+		display: none;
+		margin-top: 0px!important;
+		width:100%;
+		padding:2px;
+	}
+	.navbar-kubo ul li{
+		display: list-item!important;
+	}
+	.searching{
+		display: none;
+		margin-bottom: 10px;
+		padding: 5px;
+		margin-top:2px!important;
+		margin-left:0px!important;
+		width: 100%;
+	}
+	.search-camp{
+		width: 80%!important;
+	}
+}
+@media screen and (max-width:677px){
+	.grid li{
+		width:45%!important;
+	}
+}
+
+@media screen and (max-width:450px){
+	.grid li{
+		width:310px!important;
+	}
+}
+@media screen and (max-width:450px){
+	.grid li{
+		width:90%!important;
+	}
+}
+
+
 /*Navbar*/
 .navbar-kubo{
 	background-color: #222;
